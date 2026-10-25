@@ -1,0 +1,4 @@
+python3 -u exact_strong.py --cases 3:18 --time 1800 --out results_p1/port_exact_strong.jsonl >> results_p1/exact_strong.log 2>&1
+python3 -u exact_strong.py --cases 3:19 --time 1800 --out results_p1/port_exact_strong.jsonl >> results_p1/exact_strong.log 2>&1
+python3 -u exact_strong.py --cases 2:18 --time 1800 --out results_p1/port_exact_strong.jsonl >> results_p1/exact_strong.log 2>&1
+python3 -u exact_strong.py --cases 2:19 --time 1800 --out results_p1/port_exact_strong.jsonl >> results_p1/exact_strong.log 2>&1

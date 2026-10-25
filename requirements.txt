@@ -1,0 +1,9 @@
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+mealpy==3.0.2
+cma==4.5.0
+pyscipopt>=5.0
+cvxpy>=1.5
+clarabel>=0.9

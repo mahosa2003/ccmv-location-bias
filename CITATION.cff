@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this software deposit."
+title: "Code and results for: Location bias and encoding geometry in metaheuristic benchmarks for cardinality-constrained portfolio optimization"
+version: 1.0.0
+license: MIT
+type: software
+abstract: >-
+  Python code, raw results, exact reference solutions (SCIP) and figures of a study of
+  location bias and encoding geometry in metaheuristic benchmarks for the
+  cardinality-constrained mean-variance portfolio problem on the OR-Library instances
+  port1-port5. Includes reflected-encoding controls, a five-location test on test
+  functions, and eleven optimizers (GWO, HHO, WOA, SCA, PSO, DE, GA, L-SHADE,
+  BIPOP-CMA-ES, ESDO and ESDO-R).
+keywords:
+  - portfolio optimization
+  - cardinality constraint
+  - metaheuristics
+  - benchmarking
+  - structural bias
+  - mixed-integer quadratic programming
+authors:
+  - given-names: Mahmoud
+    family-names: Abdelsalam
+    affiliation: "Arab Academy for Science, Technology and Maritime Transport (AASTMT), Giza, Egypt"
+  - given-names: Hatem
+    family-names: Diab
+    affiliation: "Arab Academy for Science, Technology and Maritime Transport (AASTMT), Giza, Egypt"

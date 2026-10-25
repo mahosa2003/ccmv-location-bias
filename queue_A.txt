@@ -1,0 +1,5 @@
+# budget check (1000 n), direct encoding
+python3 bench_port.py --ports 1 --E 20 --runs 3 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_std_b1000.jsonl >> results_p1/port_b1000.log 2>&1
+python3 bench_port.py --ports 2 --E 20 --runs 1 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_std_b1000.jsonl >> results_p1/port_b1000.log 2>&1
+python3 bench_port.py --ports 2 --E 20 --runs 2 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_std_b1000.jsonl >> results_p1/port_b1000.log 2>&1
+python3 bench_port.py --ports 2 --E 20 --runs 3 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_std_b1000.jsonl >> results_p1/port_b1000.log 2>&1

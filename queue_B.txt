@@ -1,0 +1,5 @@
+# budget check (1000 n), randomly reflected encoding
+python3 bench_mirror.py --mode corner --ports 1 --E 20 --runs 3 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_corner_b1000.jsonl >> results_p1/port_b1000.log 2>&1
+python3 bench_mirror.py --mode corner --ports 2 --E 20 --runs 1 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_corner_b1000.jsonl >> results_p1/port_b1000.log 2>&1
+python3 bench_mirror.py --mode corner --ports 2 --E 20 --runs 2 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_corner_b1000.jsonl >> results_p1/port_b1000.log 2>&1
+python3 bench_mirror.py --mode corner --ports 2 --E 20 --runs 3 --budget 1000 --algos ESDO,ESDO-R,PSO,DE,GA,GWO,HHO,L-SHADE,CMA-ES,WOA,SCA --out results_p1/port_corner_b1000.jsonl >> results_p1/port_b1000.log 2>&1
